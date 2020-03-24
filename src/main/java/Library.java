@@ -30,4 +30,8 @@ public class Library {
     public int getCapacity() {
         return this.capacity;
     }
+
+    public Book removeBook() {
+       return this.collection.remove(0);
+    }
 }
